@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="game_name">Название игры</string>
+    <string name="start_game">Начать игру</string>
+    <string name="zadanie_1">Задание 1</string>
+    <string name="zadanie_2">Задание 2</string>
+    <string name="nextLevel">Проверка</string>
+
+</resources>
