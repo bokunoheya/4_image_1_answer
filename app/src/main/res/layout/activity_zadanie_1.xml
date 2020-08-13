@@ -10,21 +10,21 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="12dp"
         android:contentDescription="TODO"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/imageForOne1" />
+        app:srcCompat="@drawable/image_for_one1" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/imageForOne2" />
+        app:srcCompat="@drawable/image_for_one2" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/imageForOne3" />
+        app:srcCompat="@drawable/image_for_one3" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -41,29 +41,33 @@
         android:layout_marginEnd="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/imageForOne4" />
+        app:srcCompat="@drawable/image_for_one4" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button4"
         style="@style/TextStyleOther"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="16dp"
         android:onClick="otvet1"
         android:text="@string/nextLevel"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
